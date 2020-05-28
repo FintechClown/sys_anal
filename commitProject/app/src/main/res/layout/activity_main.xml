@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="馬拉松"
+        android:background="@color/shapeRed"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XX幼兒園想舉辦一場馬拉松..."
+        android:background="@color/pink"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="飛天水壺"
+        android:background="@color/shapeRed"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我們團隊發明了史無前例的飛天水壺，只要..."
+        android:background="@color/pink"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="淨灘活動"
+        android:background="@color/shapeRed"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="藻礁，你我或許都沒聽過，但在桃園觀音..."
+        android:background="@color/pink"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+</LinearLayout>
