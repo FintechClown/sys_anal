@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuditActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_audit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="待審核專案"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/tv32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="飛天水壺"
+        android:background="@color/shapeRed"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我們團隊發明了史無前例的飛天水壺，只要..."
+        android:background="@color/pink"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

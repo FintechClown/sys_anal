@@ -3,4 +3,16 @@
 
     <item android:title="add"
         android:id="@+id/add_item"/>
+    <item
+        android:id="@+id/login_item"
+        android:title="login" />
+    <item
+        android:id="@+id/regist_item"
+        android:title="regist" />
+    <item
+        android:id="@+id/history_item"
+        android:title="history" />
+    <item
+        android:id="@+id/refund_item"
+        android:title="refund" />
 </menu>

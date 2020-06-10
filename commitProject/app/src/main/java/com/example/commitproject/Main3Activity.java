@@ -24,7 +24,7 @@ public class Main3Activity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (str.equals("1")) {
+                if (str.equals("王廣")) {
                     Toast.makeText(Main3Activity.this, "成功", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(Main3Activity.this, "失敗", Toast.LENGTH_SHORT).show();

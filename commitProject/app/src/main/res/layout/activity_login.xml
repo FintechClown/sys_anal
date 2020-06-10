@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="會員登入"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="輸入帳號"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="輸入密碼"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+    <TextView
+        android:id="@+id/tv_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="忘記密碼?"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="還沒註冊?" />
+</LinearLayout>

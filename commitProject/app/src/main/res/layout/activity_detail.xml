@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="馬拉松"
+        android:background="@color/shapeRed"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_project_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="台灣科技大學NTUST X 木瓜幼兒園" />
+
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:text="XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松...XX幼兒園想舉辦一場馬拉松..."
+        android:background="@color/pink"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_product1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="贊助方案1" />
+
+        <TextView
+            android:id="@+id/tv_product2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="贊助方案2" />
+
+        <TextView
+            android:id="@+id/tv_product3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="贊助方案3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_progress_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="64%"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/shapeGreen"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看已選擇方案-->" />
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回首頁" />
+    </LinearLayout>
+</LinearLayout>
